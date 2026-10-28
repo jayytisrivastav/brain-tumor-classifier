@@ -1,0 +1,50 @@
+[
+  {
+    "name": "original_adamw_lr0003",
+    "val_loss": 0.286721773046468,
+    "val_accuracy": 88.62781954887218,
+    "checkpoint_epoch": 5
+  },
+  {
+    "name": "original_sgd_lr001",
+    "val_loss": 0.3431401704052897,
+    "val_accuracy": 85.90225563909775,
+    "checkpoint_epoch": 5
+  },
+  {
+    "name": "resnet18_adamw_lr0003",
+    "val_loss": 0.425634443311763,
+    "val_accuracy": 84.9624060150376,
+    "checkpoint_epoch": 5
+  },
+  {
+    "name": "original_adamw_lr0001",
+    "val_loss": 0.43513004498598273,
+    "val_accuracy": 83.0827067669173,
+    "checkpoint_epoch": 5
+  },
+  {
+    "name": "original_sgd_lr0001",
+    "val_loss": 0.531397276130834,
+    "val_accuracy": 78.47744360902256,
+    "checkpoint_epoch": 5
+  },
+  {
+    "name": "resnet18_adamw_lr0001",
+    "val_loss": 0.6017114399071026,
+    "val_accuracy": 81.67293233082707,
+    "checkpoint_epoch": 5
+  },
+  {
+    "name": "small_adamw_lr0003",
+    "val_loss": 0.668937391356418,
+    "val_accuracy": 71.80451127819549,
+    "checkpoint_epoch": 5
+  },
+  {
+    "name": "small_adamw_lr0001",
+    "val_loss": 0.7468413609759252,
+    "val_accuracy": 70.86466165413533,
+    "checkpoint_epoch": 5
+  }
+]

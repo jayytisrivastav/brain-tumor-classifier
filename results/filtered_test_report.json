@@ -1,0 +1,66 @@
+{
+  "experiment": "original_adamw_lr0003",
+  "test_images": 1468,
+  "accuracy_percent": 84.80926430517711,
+  "loss": 0.6752114174151616,
+  "macro_f1": 0.8358213849379418,
+  "per_class": {
+    "glioma": {
+      "precision": 0.8229813664596274,
+      "recall": 0.6992084432717678,
+      "f1": 0.7560627674750356,
+      "support": 379
+    },
+    "meningioma": {
+      "precision": 0.7294520547945206,
+      "recall": 0.714765100671141,
+      "f1": 0.7220338983050847,
+      "support": 298
+    },
+    "notumor": {
+      "precision": 0.8719101123595505,
+      "recall": 0.9923273657289002,
+      "f1": 0.9282296650717703,
+      "support": 391
+    },
+    "pituitary": {
+      "precision": 0.9266503667481663,
+      "recall": 0.9475,
+      "f1": 0.9369592088998764,
+      "support": 400
+    }
+  },
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "notumor",
+    "pituitary"
+  ],
+  "confusion_matrix": [
+    [
+      265,
+      65,
+      37,
+      12
+    ],
+    [
+      47,
+      213,
+      20,
+      18
+    ],
+    [
+      0,
+      3,
+      388,
+      0
+    ],
+    [
+      10,
+      11,
+      0,
+      379
+    ]
+  ],
+  "limitation": "Exact duplicates filtered after training. Original validation influenced training decisions. Patient overlap and near-duplicates have not been ruled out."
+}
