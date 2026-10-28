@@ -128,13 +128,6 @@ Results are exploratory and should not be presented as a fully leakage-free or c
 
 A future experiment should deduplicate before training, use patient-grouped splits where identifiers are available, and evaluate on an untouched external dataset.
 
-## Tutorial credit
-
-Initial tutorial:
-
-https://www.youtube.com/watch?v=mGJ6OZmR-Xk
-
-The project was extended with architecture comparisons, hyperparameter experiments, stateful checkpointing, duplicate auditing, evaluation reports, model export, and standalone inference.
 
 ## Intended use
 
